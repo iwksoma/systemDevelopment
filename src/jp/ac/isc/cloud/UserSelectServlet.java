@@ -11,7 +11,7 @@ public class UserSelectServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		//DB接続に使用するクラス
+		//DB接続に使用するクラス変更
 		Connection users = null;
 		try {
 			users = DBConnection.openConnection();
